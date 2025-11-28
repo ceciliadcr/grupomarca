@@ -1,0 +1,394 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --color-general-fondo:            #48e          ;
+    --color-general-letra:            #fff          ;
+
+    --color-bn1:            #ffffff                 ;
+    --color-bn2:            #fefefe                 ;
+    --color-nn1:            #000000                 ;
+    --color-nn2:            #222222                 ; 
+    --color-gn1:            #808080                 ;
+    --color-gn2:            #f4f4f4                 ;
+}
+
+body{
+    background-color:   #fff             ;
+    margin:             0                ;
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    background-color:   #fff             ;
+}
+footer{
+    background-color:   #2e4d66          ;
+    color:              #fff             ;
+    text-align:         center           ;
+    padding-top:        15px             ;
+    font-weight:        bold             ;
+}
+/* *************************** imagenes  ****************************** */
+.logo--img{
+    width:              90px             ;
+    display:            inline-block     ;
+}
+#img-01{
+     width:             700px            ;
+}
+#img-02{
+      height:           600px             ;
+}
+#img-04{
+      width:           833px;
+}
+
+#img-08{
+    margin-top:        10px; 
+    margin-bottom:     100px;
+    height:            350px            ;
+    background-image:       url("../img08.jpg") ; 
+    background-size:        cover               ; 
+    background-position:    bottom;             ;
+}
+
+.img-fluid2{
+     width:             600px            ;
+    display:            inline-block     ;   
+}
+
+
+/* ***************************header ****************************** */
+.logo--img{
+    width:              90px             ;
+    display:            inline-block     ;
+}
+/* ================ Lista ================= */
+.breadcrumb li{
+    width:              130px            ;
+    list-style:         none             ;
+    background-color:   transparent      ; 
+    text-align:         center             ;   
+}
+.breadcrumb a{
+    padding:            01px             ;
+    color:              #2e4d66          ;
+    text-decoration:    none             ;
+}
+.breadcrumb a:hover{
+    padding:            01px             ;
+    color:              #ef1f41          ;
+    background-color:   transparent      ;
+    text-decoration:    none             ;
+}
+.breadcrumb a:active{
+    color:              #ef1f41          ;
+    background-color:   transparent      ;
+}
+#titulo-pagina{
+    padding:            0                ;
+    font-weight:        900              ;
+}
+.lista {
+    margin-top:         30px;
+}
+
+.conocenos{
+    display:            inline-block    ;   
+    padding:            10px 24px       ;      
+    background-color:   red             ;   
+    color:              #fff            ;
+    text-decoration:    none            ;
+    font-weight:        600             ;
+    font-size:          30px            ;        
+    border-radius:      3px             ;
+    line-height:        1               ;   
+}
+.conocenos:hover{
+    background-color:   forestgreen     ;
+    color:              white           ;
+    text-decoration:    underline       ;
+}
+#img-logo{
+    padding:            10px 0 !important; 
+    text-align:         center           ;
+    margin-bottom:      0 !important     ;
+    padding-top:        30px             ;
+}
+
+#sec-conocenos{
+	padding: 70px 0;
+	background-color: #f1e6dc;
+} 
+
+.btn-danger{
+	margin-left: 260px;
+	padding: 20px 30px;
+	font-size: 18px;
+	font-weight: 800;
+	border-radius: 15px
+	
+}
+
+#imagen-servicios { 	
+
+}
+
+
+.titulo-servicios {
+    background-color:   #345f81          ;
+    color:              #FFFFFF          ;
+    text-align:         center           ;
+}
+h3 {
+    padding-top:        100px            ;
+    padding-bottom:     100px            ;
+	font-size: 20px;
+}
+
+
+#servicios-1{
+    padding-top:        0px              ;   
+}
+
+#servicios-2 {
+    padding-top: 0px;
+}
+
+.servicio--1{
+	background-color: #ed2041;
+}
+
+.servicio--2{
+	background-color: #2090c0;
+}
+
+.servicio--3{
+	background-color: #9fc439;
+}
+
+.servicio--4{
+    color: #ed2041 !important;
+}
+
+.servicio--5{
+ color: #2090c0 !important;
+	
+}
+
+.servicio--6{
+ color: #9fc439 !important;
+}
+
+
+
+/* *************************** Inicio  ****************************** */
+
+/* ============================= nosotros -Kike y Emmy- ================================== */
+
+.parrafo_qs{
+	color: #FFFFFF;
+	background-color: #345F81;
+	padding: 20px;
+	margin-top: 35px;
+	
+}
+#nosotros{
+	background-color: #9EC334;
+}
+
+.titulo-nosotros{
+	margin-top: 225px;
+	padding-top: 15px;
+	color: #FFFFFF;
+}
+
+#mision-vision{
+	background-color: #EB2142;
+	color:#FFFFFF;
+	padding: 50px;
+	
+	
+}
+
+.titulo-mision{
+	font-weight: 800px;
+		font-size: 38px;
+	text-underline-position: below;
+}
+
+.titulo-vision{
+	font-weight: 800px;
+	text-align: right;
+	font-size: 38px;
+	text-underline-position: below;
+}
+
+.parrafo-vision{
+	text-align: right;
+}
+
+/* ============================= Servicios -Sofia- ================================== */
+
+.imag{ 
+padding-top: 40px; 
+padding-bottom: 40px;
+}
+#nuestros_servicios {
+    padding-top:        5px              ;  
+	background-color: aqua;
+}
+.titulo-servicios-right{
+    color:              #FFFFFF          ;
+    text-align:         right;
+	padding-top:        40px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 38px;
+}
+
+.titulo-servicios-left{
+    color:              #FFFFFF          ;
+    text-align:         left;
+	padding-top:        40px;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 38px;
+}
+h3 {
+    padding-top:        100px            ;
+    padding-bottom:     100px            ;
+}
+
+.servicio{
+    border:             solid            ;  
+    margin-top:         75px             ;
+    margin-bottom:      75px             ;
+    padding:            50px 100px       ;
+    text-align:         center           ;
+    color:              #FFFFFF          ;
+    font-weight:        600              ;
+}
+
+#servicios-comunicacion-estrategica
+{background-color: #ec2142;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
+.btn-dark{
+margin-left:510px;
+margin-top: 15px;
+}
+
+#Servicios h2{
+    color: #fff; 
+}
+
+#info-sce{
+    background-color: #fff;
+    border: 05px solid #F0D8A4;
+    padding: 40px;
+
+}
+
+#publicidad-marketing{
+background-color: #fff;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+	
+#info-pm{
+background-color: #eb2142;
+    border: 05px solid #F0D8A4;
+    padding: 40px;
+	color: #fff;
+}
+
+#publicidad-marketing h2{
+	color: #eb2142;
+}
+
+
+#produ-audio{
+background-color: #2090bf;
+padding-top: 80px;
+padding-bottom: 80px;	
+}
+
+#info-pa{
+	background-color: #fff;
+    border: 05px solid #78C7F9;
+    padding: 40px;
+}
+
+#diseno-grafico h2{
+	color: #2090bf;
+}
+
+#info-dg{
+background-color: #2090bf;
+    border: 05px solid #78C7F9;
+    padding: 40px;
+	color: #fff;
+}
+
+#diseno-grafico{
+background-color: #fff;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
+#gestion-digi{
+background-color: #a0c539;
+padding-top: 80px;
+padding-bottom: 80px;	
+}
+
+#info-gd{
+	background-color: #fff;
+    border: 05px solid #cbeb9d;
+    padding: 40px;
+}
+
+
+#comunidad h2{
+	color: #a0c539;
+}
+
+#info-cc{
+background-color: #a0c539;
+    border: 05px solid #F0D8A4;
+    padding: 40px;
+	color: #fff;
+}
+
+#comunidad{
+background-color: #fff;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+/* *************************** Servicios -Sofia- ****************************** */
+
+/* *************************** footer  ****************************** */
+
+#lista-1{
+	list-style-type: none;
+}
+
+#lista-2{
+	list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
