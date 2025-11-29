@@ -192,7 +192,7 @@ h3 {
 .parrafo_qs{
 	color: #FFFFFF;
 	background-color: #345F81;
-	padding: 20px;
+	padding: 30px;
 	margin-top: 35px;
 	
 }
@@ -204,6 +204,7 @@ h3 {
 	margin-top: 225px;
 	padding-top: 15px;
 	color: #FFFFFF;
+	font-size:52px;
 }
 
 #mision-vision{
@@ -215,20 +216,32 @@ h3 {
 }
 
 .titulo-mision{
-	font-weight: 800px;
-		font-size: 38px;
-	text-underline-position: below;
+	font-weight: 900px;
+    font-size: 52px;
+	border-bottom: 4px solid #FFFFFF;
+	padding-bottom: 8px;
 }
 
 .titulo-vision{
-	font-weight: 800px;
+	font-weight: 900px;
 	text-align: right;
-	font-size: 38px;
-	text-underline-position: below;
+	font-size: 52px;
+	border-bottom: 4px solid #FFFFFF;
+	padding-bottom: 8px;
+	padding-top: 100px;
 }
 
 .parrafo-vision{
 	text-align: right;
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+.parrafo-mision { 
+ padding-top: 10px;
+ font-size: 18px;
+	
+
 }
 
 /* ============================= Servicios -Sofia- ================================== */
