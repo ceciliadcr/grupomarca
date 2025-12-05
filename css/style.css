@@ -29,6 +29,7 @@ footer{
     color:              #fff             ;
     text-align:         center           ;
     padding-top:        15px             ;
+	padding-bottom: 	20px             ;
     font-weight:        bold             ;
 }
 /* *************************** imagenes  ****************************** */
@@ -125,7 +126,6 @@ footer{
 } 
 
 .btn-danger{
-	margin-left: 260px;
 	padding: 20px 30px;
 	font-size: 18px;
 	font-weight: 800;
@@ -142,13 +142,14 @@ footer{
     background-color:   #345f81          ;
     color:              #FFFFFF          ;
     text-align:         center           ;
+	margin: 		    40px	0		 ;
 }
 h3 {
     padding-top:        100px            ;
     padding-bottom:     100px            ;
 	font-size: 20px;
 }
-
+	
 
 #servicios-1{
     padding-top:        0px              ;   
@@ -243,7 +244,13 @@ h3 {
 	
 
 }
-
+.img-nosotros{
+	background-image: url("../img/elaboracion-de-plan-de-negocios-grupo-de-jovenes-autonomos-en-la-oficina-conversando-y-sonriendo.png");
+	background-size: cover;
+	background-position: top center;
+	padding: 17.5% 0;
+	
+}
 /* ============================= Servicios -Sofia- ================================== */
 
 .imag{ 
@@ -293,7 +300,6 @@ padding-bottom: 80px;
 }
 
 .btn-dark{
-margin-left:510px;
 margin-top: 15px;
 }
 
@@ -385,6 +391,146 @@ padding-top: 80px;
 padding-bottom: 80px;
 }
 /* *************************** Servicios -Sofia- ****************************** */
+
+/* *************************** Portafolio -Enrique y Emmy- ****************************** */
+
+#cover-portafolio{
+	background-image: url("../img/camara-vs-fotografo-1-734x489.jpg");
+	background-size: cover;
+	background-position: top center;
+	padding: 17.5% 0;
+	
+}
+
+.titulo-portafolio{
+	text-align: 			center 											;
+	font-size: 				72px 											;
+	font-weight: 			900 											;
+	color: 					#FFFFFF 										;
+	letter-spacing: 		5px 											;
+	text-shadow: 			50 100 75 #000000 								;
+}
+.titulo-cliente1{
+	text-align: 			center 											;
+	font-size:  			44px 											;
+	font-weight: 			400 											;
+	color: 					#e84c37 										;
+	padding: 				25px 											;
+}
+.imagenes{
+	padding-top: 			5px												;
+	padding-bottom: 		20px											;
+}
+.titulo-cliente2{
+	font-size: 				44px 											;
+	font-weight: 			400 											;
+	color: 					#e84c37 										;
+	padding: 				25px 											;
+}
+
+.paleta-cliente2{
+	align-content: 			center 											;
+}
+.imagen-maquillaje{
+	background-image: 		url("../img/maquillaje.png") 					;
+	background-size: 		cover 											;
+	background-position: 	top center 										;
+	padding: 				17.5% 0 										;
+}
+.titulo-cliente3{
+	text-align: 			center 											;
+	font-size: 				44px											;
+	font-weight: 			400												;
+	color: 					#e84c37											;
+	padding: 				25px											;
+}
+.moda2{
+	background-image: 		url("../img/moda2.png") 						;
+	background-size: 		cover 											;
+	background-position: 	top center 										;
+	padding: 17.5% 0;
+}
+.moda3{
+	background-image: 		url("../img/moda3.png") 						;
+	background-size: 		cover 											;
+	background-position: 	top center 										;
+	padding: 17.5% 0;
+}
+
+.moda4{
+	background-image: 		url("../img/moda4.png")							;
+	background-size: 		cover 											;
+	background-position: 	top center 										;
+	padding: 				17.5% 0											;
+}
+
+/* *************************** Portafolio -Enrique y Emmy- ****************************** */
+#crew{
+	background-image: url("../img/crew_marca.png");
+	background-size: cover;
+	background-position: center;
+	background-color:rgba(0,0,0,0.25);
+	background-blend-mode: multiply;
+	padding: 15% 0;
+	background-attachment: fixed;
+}
+
+#crew h1{
+	color: #fff;
+	font-weight: 900;
+	text-align: center;
+	font-size: 72;
+	
+}
+
+#crew p{
+	color: #fff;
+}
+
+
+
+#primer_equipo{
+	padding: 200px 0;
+	background-color: #ed2041;
+	color: #fff;
+}
+
+#segundo_equipo{
+	padding: 200px 0;
+	background-color: #fff;
+}
+
+.cursiva{
+	font-style: italic;
+	color: #2090bf;
+	font-weight: 900;
+}
+
+/* *************************** Contacto ****************************** */
+
+#cover-contacto{
+	background-image: 		url("../img/celmujer.PNG") ;
+	background-size: 		cover 											;
+	background-position: 	top center 										;
+	padding: 				17.5% 0											;
+}
+.titulo-contacto{
+	text-align: 			center 											;
+	font-size: 				72px 											;
+	font-weight: 			900 											;
+	color: 					#FFFFFF 										;
+	letter-spacing: 		5px 											;
+	text-shadow: 			50 100 75 #000000 								;
+}
+.cta-contacto{
+	text-align: 			center 											;
+	font-size: 				26px 											;
+	font-weight: 			400 											;
+	color: 					#FFFFFF;
+	text-shadow: 			50 100 75 #000000 								;
+}
+
+/* *************************** fin Contacto ****************************** */
 
 /* *************************** footer  ****************************** */
 
