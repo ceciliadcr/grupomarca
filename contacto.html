@@ -1,42 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
-		
-<!--Parte De Melany Romero: SEO Tecnico y GOOGLE analytics -->	
 <head>
     <meta charset="UTF-8">
-
-	<!-- SEO Tecnico -->
-	<meta name="description" content="Grupo Marca es una agencia de comunicación estratégica especializada en producción audiovisual, marketing digital, diseño gráfico y gestión de contenidos.">
-
-<meta name="keywords" content="Grupo Marca, comunicación estratégica, marketing digital, producción audiovisual, diseño gráfico, agencia creativa">
-		
     <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Ponte en contacto con Grupo Marca, agencia de comunicación estratégica. Envíanos tu mensaje y transformemos juntos tu marca.">
+    <meta name="keywords" content="Grupo Marca, contacto, agencia de comunicación, marketing digital, producción audiovisual, diseño gráfico">
+
     <link rel="stylesheet" href   ="css/bootstrap.min.css">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet" >
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet" >
 	<link rel="stylesheet" href   ="css/bootstrap-custom.css">
 	<link rel="stylesheet" href   ="css/style.css">
-	
-	
-	<!-- GOOGLE Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	  gtag('config', 'G-XXXXXXXXXX');
-	</script>
-
-    <title>Grupo Marca | Inicio </title>
+    <title>Grupo Marca | Contacto </title>
 </head>
-
-	
-	
 <body>
-    <header>
+   <header>
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<a class="navbar-brand" href="index.html">
-			<img src="img/Logo.png" alt="logo" class="img-fluid" width="100px"></a>
+			<img src="img/Logo.png" alt="logo"  width="100px"></a>
 		  
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
 			<i class="fa-solid fa-bars"></i>
@@ -89,46 +70,64 @@
      		</nav>
 		</div>
   	</header>  
-<!-- *************************** Conocenos **********************************  -->
-  <section id="sec-conocenos">
-  <div class="container">
-    <div class="row">
-      <article class="col-lg-6 col-sm-12 col-12">
-        <img src="img/img01.png" 
-             alt="logo grupo marca" class="img-fluid">
-        <div class="text-center"><a href="p01.html" button type="button" class="btn btn-danger">Conócenos</a></div>
-		
-      </article>
-      <article class="col-lg-6 col-sm-12 col-12">
-        <div class="d-none d-sm-block"><img 
-             src="img/img02.png" 
-             alt="imagen grupo marca" class="img-fluid"></div>
-      </article>
-	
-    </div>
-  </div>
-  </section>
+<!-- *************************** Contacto **********************************  -->
+  <section id="cover-contacto">
+	<div class="container"> 
+		<div class="row">
+			<article class="col-12">
+				<h1 class="titulo-contacto">Contacto</h1>
+				<p class="cta-contacto w-50 m-auto"> ¿Listo para transformar tu marca? Enviá tu mensaje y empezamos hoy mismo.
 
-   <section id="servicios">
-    <div class="container">
-      <div class="row mb-5">
-        <article class="col-lg-4 col-sm-12 col-12">
-          <h2 class="titulo-servicios">NUESTROS SERVICIOS</h2>
-          <img src="img/foto-de-oficina.jpeg" alt="oficina" class="img-fluid" id="imagen-servicios">
-        </article>
-        <article class="col-lg-4 col-sm-12" id="servicios-1">
-          <h3 class="servicio servicio--1">Servicios Comunicación Estrategica</h3>
-          <h3 class="servicio servicio--2">Producción Audiovisual</h3>
-          <h3 class="servicio servicio--3">Gestión Digital y Contenido</h3>
-        </article>
-        <article class="col-lg-4 col-sm-12" id="servicios-2">
-          <h3 class="servicio servicio--4">Publicidad y Marketing</h3>
-          <h3 class="servicio servicio--5">Diseño Gráfico y Animación</h3>
-          <h3 class="servicio servicio--6">Comunidad de Creadores</h3>
-        </article>
-      </div>
-    </div>
- </section>
+
+</p>
+			</article>
+		</div> 
+	</div>	
+</section> 	
+	
+<section class="contact">
+	<div class="container">
+		<div class="row">
+			<article class="col-lg-6 col-sm-12 mt-5 mb-5 contact-text">
+				<h2>Formulario de Contacto</h2>
+				<p>Solicita nuestros servicios o despeja tus dudas con nuestra atencion personalizada</p>
+			</article >
+			<article  class="col-lg-6 col-sm-12 mt-5 mb-5 formulario">
+				<form name="Formulario" action="" method="post">
+					<div class="row">
+						<div class="col-lg-6 col-sm-12 col-12">
+							<label>Nombre Completo</label>
+							<input type="text"  name="nombre" class="form-control" placeholder="" required>
+						</div>
+						<div class="col-lg-6 col-sm-12 col-12">
+							<label>Correo Electronico</label>
+							<input type="email"  name="correo" class="form-control" placeholder="" required>
+						</div>
+					</div>
+					<div class="row mt-3">
+						<label>Mensaje:</label>
+						<div>
+							<textarea name="mensaje" class="form-control" rows="8" placeholder="Mensaje:" required>
+							</textarea>
+						</div>
+							
+					</div>
+					<div class="row mt-3">
+						<button type="submit" class="btn btn-contact"> Enviar</button>
+					</div>
+				</form>
+			</article>
+		</div>
+	</div>
+</section>	
+	
+	
+	
+	
+	
+	
+	
+	
 
   <!-- *************************** footer **********************************  -->
 <footer>
@@ -137,7 +136,7 @@
    <article class="col-lg-4 col-sm-12 col-12">
   
     <ul class="menu" id="lista-1">  
-        <li><a href="index.html">	        Inicio</a></li>
+        <li><a href="index.html">	Inicio</a></li>
         <li><a href="nosotros.html">		Quiénes Somos</a></li>
         <li><a href="servicios.html">		Servicios</a></li>
         <li><a href="crew.html">			Nuestro Equipo</a></li>
@@ -176,6 +175,8 @@
     </div>  
    </div>   
   </footer>
+   
+
   <script src="js/jquery.min.js" ></script>
   <script src="js/bootstrap.min.js" ></script>
 </body>

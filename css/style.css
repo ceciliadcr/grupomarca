@@ -121,7 +121,7 @@ footer{
 }
 
 #sec-conocenos{
-	padding: 70px 0;
+	padding: 100px 0;
 	background-color: #f1e6dc;
 } 
 
@@ -247,7 +247,7 @@ h3 {
 .img-nosotros{
 	background-image: url("../img/elaboracion-de-plan-de-negocios-grupo-de-jovenes-autonomos-en-la-oficina-conversando-y-sonriendo.png");
 	background-size: cover;
-	background-position: top center;
+	background-position:center;
 	padding: 17.5% 0;
 	
 }
@@ -465,6 +465,195 @@ padding-bottom: 80px;
 }
 
 /* *************************** Portafolio -Enrique y Emmy- ****************************** */
+
+ /* *************************** colaboraciones **********************************   */
+
+#colabs{
+	background-image: url("../img/designer-choosing-photos-for-content-2025-02-11-15-42-36-utc.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color:rgba(0,0,0,0.50);
+	background-blend-mode: multiply;
+	padding: 15% 0;
+	background-attachment: fixed;
+}
+
+#colab-1{
+	
+	background-color: #e84c37;
+}
+
+#colab-2{ 
+
+	background-color: #a0c539;
+
+}
+
+#colab-3{ 
+
+	background-color: #C4C4C4;
+
+}
+
+
+#colab-4{ 
+
+	background-color:#77A4C8;
+
+}
+
+#colab-1, #colab-2{
+	position: relative;
+		
+}
+
+.colab-body-1{
+	
+	padding: 25%;
+	text-align: justify;	
+}
+
+.colab-body-1 h2{
+	
+	font-weight: 600;
+
+}
+
+
+.colab-body-2{
+	
+	padding: 25%;
+	text-align: justify;	
+}
+
+.colab-body-2 h2{
+	
+	font-weight: 600;
+
+}
+
+.img-ciudad{ 
+
+	background-image: url("../img/mature-woman-happy-and-confident-of-herself-walkin-2024-10-18-09-13-25-utc.jpg");
+	background-size: cover;
+	background-position: top center;
+	padding: 15%;
+}
+
+.img-evento{ 
+
+	background-image:url("../img/product-launch.png");
+	background-size: cover;
+	background-position:top center;
+	padding: 15% 0%;
+}
+
+.img-sombra{
+	
+	background-image:url("../img/beauty-woman-face-closeup-beautiful-model-girl-mak-2025-10-16-04-08-32-utc.jpg");
+	background-size: cover;
+	background-position:top center;
+	padding: 15% 0%;
+	
+}
+
+.img-voice{ 
+	
+	background-image:url("../img/male-musician-in-recording-studio-singing-into-mi-2024-10-20-00-04-23-utc.jpg");
+	background-size: cover;
+	background-position:top center;
+	padding: 15% 0%;
+
+}
+
+ /* *************************** fin colaboraciones **********************************   */
+
+ /* *************************** ads **********************************   */
+
+#ads{
+	background-image: url("../img/adssss.png");
+	background-size: cover;
+	background-position: center;
+	background-color:rgba(0,0,0,0.25);
+	background-blend-mode: multiply;
+	padding: 15% 0;
+	background-attachment: fixed;
+}
+
+.titulo{
+	color: #fff;
+	font-weight: 900;
+	text-align: center;
+	font-size: 72;
+}
+
+#apps-ads i{
+	color: #2090c0;
+}
+
+.sub-ads{
+	color: #2090c0;
+	font-weight: 800;
+}
+
+#apps-ads{
+	padding: 100px 0;
+}
+
+
+
+ /* *************************** fin ads **********************************   */
+
+ /* *************************** blog **********************************   */
+
+.blog-cover{
+	background-image: url("../img/office-lobby-conversation-with-colleagues-2024-11-16-08-50-59-utc.jpg");
+	background-size: cover;
+	background-position:top center;
+	background-color:rgba(0,0,0,0.50);
+	background-blend-mode: multiply;
+	padding: 15% 0;
+}
+.cover-text{
+	color: #FFFFFF;
+	text-align: justify;	
+}
+
+.cover-text h1{
+	font-weight: 600;
+	
+}
+
+.blog-1{
+	
+}
+
+.blog-body{
+	padding:5%;
+	color: #FFFFFF;
+	
+}
+
+.blog-body h5{
+	font-weight: 600;
+	
+}
+
+.bgb-1{
+	background-color:#ed2041; 	
+}
+
+.bgb-2{
+	background-color:#a0c539;
+}
+
+.bgb-3{
+	background-color:#2090bf;
+}
+ /* *************************** fin blog **********************************   */
+
+
+ /* *************************** crew **********************************   */
 #crew{
 	background-image: url("../img/crew_marca.png");
 	background-size: cover;
@@ -475,15 +664,9 @@ padding-bottom: 80px;
 	background-attachment: fixed;
 }
 
-#crew h1{
-	color: #fff;
-	font-weight: 900;
-	text-align: center;
-	font-size: 72;
-	
-}
 
-#crew p{
+
+.parraf-white{
 	color: #fff;
 }
 
@@ -505,6 +688,7 @@ padding-bottom: 80px;
 	color: #2090bf;
 	font-weight: 900;
 }
+/* *************************** fin crew **********************************   */
 
 /* *************************** Contacto ****************************** */
 
@@ -512,6 +696,8 @@ padding-bottom: 80px;
 	background-image: 		url("../img/celmujer.PNG") ;
 	background-size: 		cover 											;
 	background-position: 	top center 										;
+	background-color:rgba(0,0,0,0.25);
+	background-blend-mode: multiply;
 	padding: 				17.5% 0											;
 }
 .titulo-contacto{
@@ -530,19 +716,92 @@ padding-bottom: 80px;
 	text-shadow: 			50 100 75 #000000 								;
 }
 
+.contact{
+	background-color:#a0c539;
+	padding: 5%;
+		
+}
+
+.contact-text {
+	padding: 6%;
+	
+}
+
+.contact-text h2{
+	font-size: 42px;
+	font-weight: 600;
+
+	
+}
 /* *************************** fin Contacto ****************************** */
+
+ /* *************************** unete a nosotros **********************************   */
+
+.cover-clientes{
+	background-image: url("../img/beneficios-trabajo-en-equipo-1000x666.webp");
+	background-size: cover;
+	background-position: top center;
+	background-color:rgba(0,0,0,0.50);
+    background-blend-mode: multiply;
+	padding: 15% 0;
+	
+}
+
+.titulo-clientes{
+	text-align: 			center;
+	font-size: 				62px;
+	font-weight: 			900;
+	color: 					#fff;
+	letter-spacing: 		5px;
+}
+
+.unete{
+	background-color:#E8E8E8; 
+	color: #000000;
+	padding: 10% 5% 10% 5%;
+}
+
+
+.btn-unete{
+	padding: 5px;
+font-size: 18px;
+font-weight: 800;
+border-radius: 15px;
+	background-color: #2090bf;
+	color: #FFFFFF;
+	
+}
+.btn-unete:hover{
+	border-color: #e84c37;
+	border-radius: 15px;
+	color: #e84c37;
+}
+
+
+ /* ***************************  fin unete a nosotros **********************************   */
 
 /* *************************** footer  ****************************** */
 
 #lista-1{
 	list-style-type: none;
+	
 }
 
 #lista-2{
 	list-style-type: none;
 }
 
+a{
+	text-decoration: none;
+	
+}
 
+.redes-footer{ 
+
+padding-top: 10%;
+
+
+}
 
 
 
